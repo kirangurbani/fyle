@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#rcorners3 {
+    border-radius: 100px;
+    background-color: #FAB8C4;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 800px;
+    height: 250px;
+  }
+
+  #rtb {
+    border-radius: 20px;
+    
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 30px;
+    height: 50px;
+  }
+
+  #rbtn {
+    border-radius: 20px;
+    text-align: center;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+  }
+
+  .newsletter {
+    padding: 80px 0;
+    background: #19beda;
+    }
+    
+    .newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    .newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px; }
+    .newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:0;
+    }
+    .newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+    }
+    .newsletter .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    background: #243c4f;
+    color: #fff;
+    font-weight:600;
+    }
+
+    /*footer*/
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+    
+/*==================== Particle CSS =====================================*/
+
+.title{
+    font-size: 40px;
+    text-align: center;
+}
+
+.title1{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text-l{
+    font-size: 14px;
+    font-weight: 500;
+    color: #747474;
+}
+
+
+/*==================== Main CSS =====================================*/
+
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    position: relative;
+    position: absolute;
+    top: 0;
+    z-index: 9999;
+}
+
+nav img{
+    width: 50px;
+    position: absolute;
+    bottom: -30px;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav>ul li:last-child{
+    margin-left: 20px;
+}
+
+button{
+    padding: 7px 20px 8px 20px;
+    background: transparent;
+    border: 2px solid #0F47C0;
+    color: #0F47C0;
+    font-weight: 600;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+nav ul li:last-child button{
+    color: #fff;
+    background-color: #0F47C0;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left h2{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.jbsk h2{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-left ul li{
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#home{
+    width: 100%;
+    height: 85%;
+    background-color: #F8F9FB;
+    display: flex;
+    position: relative;
+}
+
+#home-left, #home-right{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+#home-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-left .center{
+    width: 80%;
+}
+
+.center h1{
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+.center p{
+    width: 80%;
+    margin: 40px 0;
+    color: #747474;
+}
+
+.center button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-weight: 400;
+    padding: 15px 20px;
+}
+
+#home-right img{
+    width: 90%;
+    position: absolute;
+    bottom: -10%;
+}
+
+.home-group{
+    width: 70%;
+    height: 110px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: -55px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px 0 #7474741A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-group img{
+    height: 30px;
+}
+
+#catelog{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px 50px;
+    margin-top: 30px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.catelog-item{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 35px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+.catelog-item:hover{
+    box-shadow: 4px 4px 20px 0px rgb(221, 221, 221);
+}
+
+.catelog-img{
+    width: 0px;
+    height: 70px;
+    border-radius: 12px;
+    background-color: #E2F4FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catelog-img img{
+    width: 30px;
+}
+
+.catelog-item .title1 {
+    width: 80%;
+}
+
+#catelog-btn{
+    height: 40px;
+    background-color: black;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.hidden1, .hidden2, .hidden3{
+    display: none;
+}
